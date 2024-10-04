@@ -11,7 +11,7 @@ const db = mysql2.createConnection({
   host: "localhost", // Your database host
   user: "root", // Your database username
   password: "$uperDragon13", // Your database password
-  database: "", // Your database name
+  database: "noted", // Your database name
 });
 
 db.connect((err) => {
